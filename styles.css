@@ -284,6 +284,7 @@ body {
     justify-content: space-between;
     max-width: 1190px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .others_product-item {
     width: 262px;
@@ -322,7 +323,7 @@ body {
     display: none;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 475px) {
     .header {
         margin-bottom: 0;
     }
